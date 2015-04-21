@@ -18,5 +18,11 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+    
+    static const int num=1000;
+    ofVec2f position[num];
+    ofVec2f velocity[num];
+    ofcolor color[num];
+    
 		
 };
